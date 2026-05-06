@@ -104,3 +104,10 @@ def selfscan(args):
             f"{'Packettyp':<10} | {'Source-IP':<10} | {'Destination-IP':<10} | {'flags/sport/type':<10} | {'dport/code':<10}"
         )
         sniff(prn=packet_callback)
+
+
+if __name__ == main:
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\nAborted.")
