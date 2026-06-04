@@ -31,7 +31,7 @@ pip install scapy psutil
 ## Installation
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/TuxtheCrux/Network_Scanner.git
 cd network_scanner
 python -m venv .venv
 source .venv/bin/activate
